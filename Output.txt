@@ -1,0 +1,22 @@
+[Running] node "c:\Users\Jessie\workspaceWeb\lab3\query-recipes.js"
+QUERY: Recipes that use the ingredients beef and potato.
+[
+  {
+    _id: new ObjectId("6185f3240449af973ca6ac00"),
+    name: "Shepherd's Pie"
+  },
+  {
+    _id: new ObjectId("6185f3240449af973ca6ac01"),
+    name: 'Steak Tacos'
+  }
+]
+
+QUERY: Recipes whose names include the word Steak
+[
+  {
+    _id: new ObjectId("6185f3240449af973ca6ac01"),
+    name: 'Steak Tacos'
+  }
+]
+
+[Done] exited with code=0 in 1.367 seconds
